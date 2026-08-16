@@ -1,6 +1,6 @@
 from scapy.all import *
 
-packets = rdpcap("course capfile.pcapng") # rdpcap has creatred an array of the capture file 
+packets = rdpcap("Your_capture.pcapng") # rdpcap has creatred an array of elements of the capture file 
 
 print("Number of Packets" , len(packets)) # as the packets is an array len counts the elements to give exact packet count
 
